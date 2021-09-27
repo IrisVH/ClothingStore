@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Web", "QuieroPizza.Web\ClothingStore.Web.csproj", "{AB423B8A-EE88-4ACE-9C6E-AE4B7F2C9E64}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.WebAdmin", "ClothingStore.WebAdmin\ClothingStore.WebAdmin.csproj", "{52FA9046-1057-4526-B0E5-EF72E87EF60D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.win", "WindowsFormsApplication1\ClothingStore.win.csproj", "{64AF793B-4066-4C24-94C3-CA72D520C8C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.BL", "ClothingStore.BL\ClothingStore.BL.csproj", "{8CCE19E8-DC9E-46EE-98F7-57BB10C24F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Web", "ClothingStore.Web\ClothingStore.Web.csproj", "{8394A949-2B92-4130-9576-D244E5DF8CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB423B8A-EE88-4ACE-9C6E-AE4B7F2C9E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB423B8A-EE88-4ACE-9C6E-AE4B7F2C9E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB423B8A-EE88-4ACE-9C6E-AE4B7F2C9E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB423B8A-EE88-4ACE-9C6E-AE4B7F2C9E64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52FA9046-1057-4526-B0E5-EF72E87EF60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52FA9046-1057-4526-B0E5-EF72E87EF60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52FA9046-1057-4526-B0E5-EF72E87EF60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{8CCE19E8-DC9E-46EE-98F7-57BB10C24F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCE19E8-DC9E-46EE-98F7-57BB10C24F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CCE19E8-DC9E-46EE-98F7-57BB10C24F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8394A949-2B92-4130-9576-D244E5DF8CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8394A949-2B92-4130-9576-D244E5DF8CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8394A949-2B92-4130-9576-D244E5DF8CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8394A949-2B92-4130-9576-D244E5DF8CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
