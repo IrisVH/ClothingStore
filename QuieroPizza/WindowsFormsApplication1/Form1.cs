@@ -20,6 +20,7 @@ namespace WindowsFormsApplication1
             var listadeProductos = productosBL.ObtenerProductos();
 
             listadeProductosBindingSource.DataSource = listadeProductos;
+
         }
 
         
