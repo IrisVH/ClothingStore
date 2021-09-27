@@ -76,6 +76,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\ClothingStore.BL.Contexto.datasource" />
+    <None Include="Properties\DataSources\ClothingStore.BL.Producto.datasource" />
+    <None Include="Properties\DataSources\ClothingStore.BL.ProductosBL.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
