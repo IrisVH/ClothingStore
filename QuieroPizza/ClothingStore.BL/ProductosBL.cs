@@ -15,11 +15,9 @@ namespace ClothingStore.BL
         public ProductosBL()
         {
             _contexto = new Contexto();
-            ListadeProductos = new List<Producto>();
-           
-           
+            ListadeProductos = new List<Producto>();           
 
-    }
+        }
 
         public List<Producto> ObtenerProductos()
         {
