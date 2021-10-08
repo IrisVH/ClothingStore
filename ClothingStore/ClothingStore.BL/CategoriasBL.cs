@@ -34,11 +34,11 @@ namespace ClothingStore.BL
             else
             {
                 var categoriaExistente = _contexto.Categorias.Find(categoria.Id);
-                categoriaExistente.Descripcion = categoria.Descripcion;
+                categoriaExistente.Descripcion = categoria.Descripcion; 
                 
-
-               _contexto.SaveChanges();
             }
+
+            _contexto.SaveChanges();
 
         }
 
