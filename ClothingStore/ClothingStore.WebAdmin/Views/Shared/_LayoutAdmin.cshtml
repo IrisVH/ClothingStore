@@ -23,9 +23,7 @@
             <div id="cm-menu-items-wrapper">
                 <div id="cm-menu-scroller">
                     <ul class="cm-menu-items">
-                        <li class="active">
-                            <a href="/" class="sf-house">Inicio</a>
-                        </li>
+                        <li class="active"><a href="/" class="sf-house">Inicio</a></li>
                         <li>
                             <a href="/Productos" class="sf-layers">Productos</a>
                         </li>
@@ -66,15 +64,15 @@
         <div class="container-fluid">
             <div class="panel panel-default">
                 <div class="panel-body" id="demo-buttons">
+                    
                     @RenderBody()
                 </div>
             </div>
         </div>
-        <footer class="cm-footer">
-            <span class="pull-left">
-                © 2019 - Admin Website
-            </span>
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ClothingStore</p>
         </footer>
+        
     </div>
     <script src="~/assets/js/lib/jquery-2.1.3.min.js"></script>
     <script src="~/assets/js/jquery.mousewheel.min.js"></script>
