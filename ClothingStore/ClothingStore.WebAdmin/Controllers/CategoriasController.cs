@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace ClothingStore.WebAdmin.Controllers
 {
+    [Authorize]
     public class CategoriasController : Controller
     {
         CategoriasBL _categoriasBL;

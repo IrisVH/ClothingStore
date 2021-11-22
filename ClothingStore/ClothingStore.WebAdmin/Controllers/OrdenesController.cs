@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace ClothingStore.WebAdmin.Controllers
 {
-    
+    [Authorize]
     public class OrdenesController : Controller
     {
         OrdenesBL _ordenesBL;
