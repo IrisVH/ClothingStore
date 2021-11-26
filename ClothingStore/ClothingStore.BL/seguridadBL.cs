@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -10,25 +11,42 @@ namespace ClothingStore.BL
     public class seguridadBL
     {
         Contexto _Contexto;
+        public List<Usuario> ListadeUsuarios { get; set; }
+
 
         public seguridadBL()
         {
             _Contexto = new Contexto();
+            ListadeUsuarios = new List<Usuario>();
+
         }
+        public List<Usuario> ObtenerUsuarios()
+        {
+            ListadeUsuarios = _Contexto.Usuarios
+                .ToList();
+
+            return ListadeUsuarios;
+
+        }
+
 
         public bool Autorizar(string nombreUsuario, string contrasena)
 
-        { var contrasenaEncriptada = Encriptar.CodificarContrasena(contrasena);
-            var usuario = _Contexto.Usuarios
+        {
+            
+            var contrasenaEncriptada = Encriptar.CodificarContrasena(contrasena);
+            var usuarios = _Contexto.Usuarios.ToList()
                 .FirstOrDefault(r => r.Nombre == nombreUsuario &&
                 r.Contrasena == contrasenaEncriptada);
 
-            if (usuario != null)
+            if (usuarios != null)
             {
                 return true;
             }
             return false;
         }
+        
+
     }
 
     public static class Encriptar
